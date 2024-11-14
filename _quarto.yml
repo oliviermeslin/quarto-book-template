@@ -3,8 +3,8 @@ project:
   output-dir: _book
   
 book:
-  title: "Title of Next Bestseller"
-  author: "JJB"
+  title: "Titre général"
+  author: "Deux doux dingues"
   description: | 
     TBA
   #cover-image: images/cover.png
@@ -18,6 +18,11 @@ book:
     - part: my-first-book.qmd
       chapters: 
         - hello-world.qmd
+        - hello-world2.qmd
+    - part: my-first-book2.qmd
+      chapters: 
+        - hello-world.qmd
+        - hello-world2.qmd
   appendices:
     - appendix-notes.qmd
     
